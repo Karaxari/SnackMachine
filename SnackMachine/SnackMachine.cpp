@@ -49,4 +49,12 @@ int main()
     //cout << machine->getCountSnack() << endl;
 
     machine->getQuantitativeInformation();
+
+    delete machine;
+    delete snackSlot1;
+    delete snackSlot2;
+    delete snackSlot3;
+    delete snack1;
+    delete snack2;
+    delete snack3;
 }
